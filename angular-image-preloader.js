@@ -1,4 +1,4 @@
-(function(angular) {
+(function() {
     'use strict';
 
     angular.module('angular-image-preloader', [])
@@ -66,4 +66,4 @@
       };
     }
 
-})(angular);
+})();

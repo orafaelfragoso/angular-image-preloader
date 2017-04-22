@@ -1,0 +1,24 @@
+{
+  "name": "angular-image-preloader",
+  "version": "0.0.1",
+  "description": "A simple and lightweight image preloader for Angular.js",
+  "main": "src/angular-image-preloader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelfragosom/angular-image-preloader.git"
+  },
+  "keywords": [
+    "image",
+    "preloader",
+    "angularjs"
+  ],
+  "author": "Rafael Fragoso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelfragosom/angular-image-preloader/issues"
+  },
+  "homepage": "https://github.com/rafaelfragosom/angular-image-preloader#readme"
+}

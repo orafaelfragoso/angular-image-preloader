@@ -1,0 +1,25 @@
+{
+  "name": "angular-image-preloader",
+  "description": "Asynchronous Image Preloader Directive for Angular 1.X",
+  "main": "dist/angular-image-preloader.js",
+  "authors": [
+    "Rafael Fragoso <rafaelfragosom@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "es6",
+    "angular",
+    "directive",
+    "image",
+    "preloader",
+    "asynchronous"
+  ],
+  "homepage": "https://github.com/rafaelfragosom/angular-image-preloader",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

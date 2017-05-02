@@ -53,6 +53,7 @@
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-angular": "^2.4.0",
     "eslint-plugin-import": "latest",
+    "eslint-plugin-jasmine": "^2.2.0",
     "istanbul-instrumenter-loader": "^2.0.0",
     "jasmine-core": "^2.4.1",
     "karma": "^1.6.0",

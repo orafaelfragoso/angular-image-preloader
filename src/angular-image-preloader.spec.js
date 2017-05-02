@@ -1,13 +1,14 @@
 import app from '../src';
 
 describe('angular-image-preloader', () => {
-  let element, scope;
+  let element;
+  let scope;
 
-  beforeEach(angular.mock.module(app));
+  beforeEach(() => angular.mock.module(app));
 
-  beforeEach(inject(function(_$rootScope_, _$compile_) {
-    let $rootScope = _$rootScope_,
-        $compile = _$compile_;
+  beforeEach(inject((_$rootScope_, _$compile_) => {
+    const $rootScope = _$rootScope_;
+    const $compile = _$compile_;
 
     scope = $rootScope.$new();
 

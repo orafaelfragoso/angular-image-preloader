@@ -11,4 +11,4 @@ cache:
   directories:
     - node_modules
 addons:
-  sauce_connect: true
+  sauce_connect: false

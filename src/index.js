@@ -1,5 +1,5 @@
 import angular from 'angular';
-import {preLoader, preloadImage, preloadBgImage} from './angular-image-preloader.js';
+import { preLoader, preloadImage, preloadBgImage } from './angular-image-preloader';
 
 const MODULE_NAME = 'angular-image-preloader';
 

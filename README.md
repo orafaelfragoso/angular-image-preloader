@@ -1,4 +1,4 @@
-# Angular Image Preloader [![Build Status](https://travis-ci.org/rafaelfragosom/angular-image-preloader.svg?branch=master)](https://travis-ci.org/rafaelfragosom/angular-image-preloader)
+# Angular Image Preloader [![Build Status](https://travis-ci.org/rafaelfragosom/angular-image-preloader.svg?branch=master)](https://travis-ci.org/rafaelfragosom/angular-image-preloader) [![npm version](https://badge.fury.io/js/angular-image-preloader.svg)](https://badge.fury.io/js/angular-image-preloader) [![Bower version](https://badge.fury.io/bo/angular-image-preloader.svg)](https://badge.fury.io/bo/angular-image-preloader)
 
 Asynchronous Image Preloader Directive for Angular 1.X. 
 

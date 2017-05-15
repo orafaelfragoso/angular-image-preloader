@@ -1,6 +1,6 @@
-# Angular Image Preloader
+# Angular Image Preloader [![Build Status](https://travis-ci.org/rafaelfragosom/angular-image-preloader.svg?branch=master)](https://travis-ci.org/rafaelfragosom/angular-image-preloader) [![npm version](https://badge.fury.io/js/angular-image-preloader.svg)](https://badge.fury.io/js/angular-image-preloader) [![Bower version](https://badge.fury.io/bo/angular-image-preloader.svg)](https://badge.fury.io/bo/angular-image-preloader)
 
-Asynchronous Image Preloader Directive for Angular 1.X.
+Asynchronous Image Preloader Directive for Angular 1.X. 
 
 ## Why?
 
@@ -18,7 +18,7 @@ AngularJS 1.X
 
 Install it with NPM, Bower or Yarn:
 
-```
+```bash
 npm install --save angular-image-preloader
 bower install --save angular-image-preloader
 yarn add angular-image-preloader
@@ -26,7 +26,7 @@ yarn add angular-image-preloader
 
 After installed and imported to the project, you should be able to load the module like so:
 
-```
+```js
 angular.module('your-module', ['angular-image-preloader']);
 ```
 
@@ -34,7 +34,7 @@ angular.module('your-module', ['angular-image-preloader']);
 
 Asynchronously loading images with img:
 
-```
+```html
 <img preload-image ng-src="your-image.jpg"
      default-image="a-default-image.jpg"
      fallback-image="a-fallback-image.jpg" />
@@ -42,7 +42,7 @@ Asynchronously loading images with img:
 
 Asynchronously loading background images with CSS:
 
-```
+```html
 <div preload-bg-image="your-image.jpg"
      default-image="a-default-image.jpg"
      fallback-image="a-fallback-image.jpg"></div>

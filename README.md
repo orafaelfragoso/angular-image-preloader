@@ -1,6 +1,6 @@
 # Angular Image Preloader [![Build Status](https://travis-ci.org/rafaelfragosom/angular-image-preloader.svg?branch=master)](https://travis-ci.org/rafaelfragosom/angular-image-preloader) [![npm version](https://badge.fury.io/js/angular-image-preloader.svg)](https://badge.fury.io/js/angular-image-preloader) [![Bower version](https://badge.fury.io/bo/angular-image-preloader.svg)](https://badge.fury.io/bo/angular-image-preloader)
 
-Asynchronous Image Preloader Directive for Angular 1.X. 
+Asynchronous Image Preloader Directive for Angular 1.X.
 
 ## Why?
 
@@ -44,6 +44,14 @@ Asynchronously loading background images with CSS:
 
 ```html
 <div preload-bg-image="your-image.jpg"
+     default-image="a-default-image.jpg"
+     fallback-image="a-fallback-image.jpg"></div>
+```
+
+Executing a callback after image loads:
+```html
+<div on-img-load="callback()"
+     preload-bg-image="your-image.jpg"
      default-image="a-default-image.jpg"
      fallback-image="a-fallback-image.jpg"></div>
 ```

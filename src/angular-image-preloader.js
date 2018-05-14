@@ -15,7 +15,7 @@ export const preloadImage = (preloader, $parse) => ({
   terminal: true,
   priority: 100,
   link: (scope, element, attrs) => {
-    scope.default = attrs.defaultImage || fallbackImage;
+    scope.default = attrs.defaultImage || fallbackImage; // eslint-disable-line
 
     attrs.$observe('ngSrc', () => {
       const url = escapeUrlProtocol(attrs.ngSrc);
@@ -45,7 +45,7 @@ export const preloadBgImage = preloader => ({
   restrict: 'A',
   link: (scope, element, attrs) => {
     if (attrs.preloadBgImage !== undefined) {
-      scope.default = attrs.defaultImage || fallbackImage;
+      scope.default = attrs.defaultImage || fallbackImage; // eslint-disable-line
 
       attrs.$observe('preloadBgImage', () => {
         element.css({

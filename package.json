@@ -71,5 +71,8 @@
   },
   "dependencies": {
     "angular": "^1.2.0"
+  },
+  "release": {
+    "analyzeCommits": "simple-commit-message"
   }
 }

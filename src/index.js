@@ -5,7 +5,7 @@ const MODULE_NAME = 'angular-image-preloader';
 
 angular.module(MODULE_NAME, [])
   .factory('preLoader', preLoader)
-  .directive('preloadImage', ['preLoader', preloadImage])
+  .directive('preloadImage', ['preLoader', '$parse', preloadImage])
   .directive('preloadBgImage', ['preLoader', preloadBgImage]);
 
 export default MODULE_NAME;
